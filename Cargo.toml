@@ -10,5 +10,5 @@ keywords = ["postgres", "sql", "pool", "database"]
 
 [dependencies]
 r2d2 = "0.8"
-postgres = { git = "https://github.com/sfackler/rust-postgres", branch = "std-futures" }
-tokio-postgres = { git = "https://github.com/sfackler/rust-postgres", branch = "std-futures" }
+postgres = { git = "https://github.com/pimeys/rust-postgres", branch = "std-futures" }
+tokio-postgres = { git = "https://github.com/pimeys/rust-postgres", branch = "std-futures" }
